@@ -2,3 +2,4 @@ src/command/*
 data/*
 env/*
 .env
+__pycache__
