@@ -1,30 +1,28 @@
 # OpenData bei Demo Tourismus
+
 13 freie Datensätze
 
-Willkommen auf dem OpenData Portal der Ziggy Tourismus
-------------------------------------------------------
+## Willkommen auf dem OpenData Portal der Demo Tourismus
 
 Hier finden Sie öffentlich zugängliche Datensätze aus der Region Ziggy wie Unterkünfte, Erlebnisse und Gastronomie. Die hier veröffentlichten Daten stehen kostenlos zur Verfügung und können mit einer [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de) Lizenz frei wiederverwendet werden.
 
 **Die Daten dürfen**
 
-*   vervielfältigt, verbreitet und weiter zugänglich gemacht werden
-*   angereichert und bearbeitet werden
-*   kommerziell genutzt werden
+- vervielfältigt, verbreitet und weiter zugänglich gemacht werden
+- angereichert und bearbeitet werden
+- kommerziell genutzt werden
 
 **Haftungsausschluss**
 
-*   Die Ziggy Tourismus schliesst jede Haftung für direkte und indirekte Schäden durch die Datennutzung aus. Sie übernimmt keine Garantie für die Aktualität, Richtigkeit, Vollständigkeit und Genauigkeit der veröffentlichten Daten.
+- Die Ziggy Tourismus schliesst jede Haftung für direkte und indirekte Schäden durch die Datennutzung aus. Sie übernimmt keine Garantie für die Aktualität, Richtigkeit, Vollständigkeit und Genauigkeit der veröffentlichten Daten.
 
-| Typen             | Untertypen                           | Format                               |
-| -----------       | ------------------------------------ | ------------------------------------ |
-| Alle Daten        |                                      | json-ld gejson csv rss mapview        |
-| Gastronomie       |                                      | json-ld gejson csv rss mapview        |
-|                   | Restaurant                           | json-ld gejson csv rss mapview        |
-| Unterkünfte       |                                      | json-ld gejson csv rss mapview        |
-|                    | Hotel                                     | json-ld gejson csv rss mapview        |
-
-
+| Typen       | Untertypen | Format                         |
+| ----------- | ---------- | ------------------------------ |
+| Alle Daten  |            | json-ld gejson csv rss mapview |
+| Gastronomie |            | json-ld gejson csv rss mapview |
+|             | Restaurant | json-ld gejson csv rss mapview |
+| Unterkünfte |            | json-ld gejson csv rss mapview |
+|             | Hotel      | json-ld gejson csv rss mapview |
 
 <div class="table-responsive">
 					<table class="table">
@@ -40,6 +38,7 @@ Hier finden Sie öffentlich zugängliche Datensätze aus der Region Ziggy wie Un
 								<td>Alle Daten (13)</td>
 								<td></td>
 								<td>
+                                    :material-file-table:
 									<a href="/api/products" class="btn btn-primary btn-sm" data-bs-toggle="tooltip" data-bss-tooltip="" type="button" title="" data-bs-original-title="json-ld">
 										<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-file-earmark-spreadsheet-fill" title="json-ld">
 											<path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM3 9h10v1h-3v2h3v1h-3v2H9v-2H6v2H5v-2H3v-1h2v-2H3V9z"></path>
@@ -220,4 +219,4 @@ Hier finden Sie öffentlich zugängliche Datensätze aus der Region Ziggy wie Un
 							</tr>
               	          						</tbody>
 					</table>
-				</div>																				
+				</div>
