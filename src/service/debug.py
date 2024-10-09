@@ -56,3 +56,8 @@ def loggingToFile(type, data):
         logging.critical(data)
     else:
         logging.debug(data)
+
+# DEBUG
+def addToData(code, data):
+    with open("../../data/"+code+".json", "w") as file:
+        file.write(json.dumps(data))
