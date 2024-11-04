@@ -3,8 +3,8 @@ site_name: Dokumentation
 site_url: https://opendata.demo.contentdesk.io
 theme:
   name: material
-  logo: assets/logo-contentdesk-blau.svg
-  favicon: assets/favicon-180-180.png
+  #logo: assets/logo-contentdesk-blau.svg
+  #favicon: assets/favicon-180-180.png
   features:
     #- navigation.instant
     #- navigation.instant.progress
