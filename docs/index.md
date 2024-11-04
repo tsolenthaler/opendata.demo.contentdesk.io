@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # OpenData bei Demo Tourismus
 
 13 freie Datensätze
