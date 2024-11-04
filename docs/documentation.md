@@ -3,6 +3,8 @@ hide:
   - navigation
 ---
 
+# Documentation
+
 ## Introduction
 
 This document describes the open data API of opendata.ziggy.pim.tso.ch for retrieving information about places and accommodation locations published on the site. Each of these entities are also tagged with one or more categories. The following objects can be retrieved via the API:
