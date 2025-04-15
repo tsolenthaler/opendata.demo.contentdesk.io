@@ -3,7 +3,6 @@ from contentdeskopendata.transform.transform import Transform
 from contentdeskopendata.load.load import Load
 import service.debug as debug
 
-
 class ContentdeskOpenData:
     """
     ContentdeskOpenData class to extract data from a given target and generate a markdown file.

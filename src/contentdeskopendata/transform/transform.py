@@ -1,4 +1,5 @@
 import json
+
 class Transform:
     
     def __init__(self, extractProducts):

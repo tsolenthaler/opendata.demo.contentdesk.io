@@ -12,4 +12,3 @@ class Load:
     
     def setLoadProducts(self):
         return self.transformProducts
-        
