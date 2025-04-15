@@ -13,10 +13,10 @@ class Transform:
                 "@type": product["family"],
                 "identifier	": product["identifier"],
                 "name": product["values"]['name'],
-                "description": product["values"]["description"],
+                #"description": product["values"]["description"],
                 "category": product["categories"],
-                "image": product["values"]["image"],
-                "url": product["values"]["url"]
+                #"image": product["values"]["image"],
+                #"url": product["values"]["url"]
             })
             
         return jsonLD

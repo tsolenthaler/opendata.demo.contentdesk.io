@@ -1,6 +1,8 @@
-from extract import Extraction
-from transform import Transform
-from load import Load
+from contentdeskopendata.extract.extract import Extraction
+from contentdeskopendata.transform.transform import Transform
+from contentdeskopendata.load.load import Load
+import service.debug as debug
+
 
 class ContentdeskOpenData:
     """
@@ -11,7 +13,7 @@ class ContentdeskOpenData:
         self.target = target
         self.extractProducts = Extraction(self.target['host'], self.target['clientid'], self.target['secret'], self.target['user'], self.target['passwd'])
         self.debugExtractProducts()
-        self.transformProducts = Transform(self.extractProducts)
+        self.transformProducts = Transform(self.extractProducts.getProducts())
         self.debugTransformProducts()
         self.loadProducts = Load(self.transformProducts)
         self.debugLoadProducts()
@@ -29,13 +31,13 @@ class ContentdeskOpenData:
         return self.loadProducts
     
     def debugExtractProducts(self):
-        extract.Extraction.loadToDebug(self.extractProducts, "extractProducts")
+        debug.loadToDebug(self.extractProducts.getProducts(), "extractProducts")
         print("Debug file extractProducts created")
     
     def debugTransformProducts(self):
-        transform.Transform.loadToDebug(self.transformProducts, "transformProducts")
+        debug.loadToDebug(self.getTransformProducts(), "transformProducts")
         print("Debug file transformProducts created")
         
     def debugLoadProducts(self):
-        load.Load.loadToDebug(self.loadProducts, "loadProducts")
+        debug.loadToDebug(self.getLoadProducts(), "loadProducts")
         print("Debug file loadProducts created")
