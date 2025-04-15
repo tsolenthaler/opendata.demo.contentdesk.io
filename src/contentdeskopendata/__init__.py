@@ -35,9 +35,9 @@ class ContentdeskOpenData:
         print("Debug file extractProducts created")
     
     def debugTransformProducts(self):
-        debug.loadToDebug(self.getTransformProducts(), "transformProducts")
+        debug.loadToDebug(self.transformProducts.getTransformProducts(), "transformProducts")
         print("Debug file transformProducts created")
         
     def debugLoadProducts(self):
-        debug.loadToDebug(self.getLoadProducts(), "loadProducts")
+        debug.loadToDebug(self.loadProducts.getLoadProducts(), "loadProducts")
         print("Debug file loadProducts created")
