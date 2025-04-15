@@ -1,5 +1,6 @@
 import json
 import os
+
 class Load:
     
     def __init__(self, transformProducts):

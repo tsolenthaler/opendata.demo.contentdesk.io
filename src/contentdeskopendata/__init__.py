@@ -15,7 +15,7 @@ class ContentdeskOpenData:
         self.debugExtractProducts()
         self.transformProducts = Transform(self.extractProducts.getProducts())
         self.debugTransformProducts()
-        self.loadProducts = Load(self.transformProducts)
+        self.loadProducts = Load(self.transformProducts.getTransformProducts())
         self.debugLoadProducts()
     
     def getExtractProducts(self):
