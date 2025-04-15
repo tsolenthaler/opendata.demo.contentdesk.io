@@ -16,5 +16,5 @@ def loadToDebug(products, fileName):
     if not os.path.exists("../../docs/debug/"+str_current_datetime+"/"):
         os.makedirs("../../docs/debug/"+str_current_datetime+"/")
     
-    with open("../../docs/debug//"+str_current_datetime+"/"+fileName+".json", "w") as file:
+    with open("../../docs/debug/"+str_current_datetime+"/"+fileName+".json", "w") as file:
         file.write(json.dumps(products))
