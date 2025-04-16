@@ -43,7 +43,7 @@ jobs:
       #- run: contentdeskopendata.ContentdeskOpenData(${{ env.host }}, ${{ env.clientid }}, ${{ env.secret }}, ${{ env.user }}, ${{ env.passwd }}, ${{ env.cdnurl }}, ${{ env.path }})
       #- run: pip install mkdocs-git-authors-plugin
       - name: Run Python script
-        run: python src/command/startPackage.py
+        run: python ./src/command/startPackage.py
       - name: Create CNAME file
         run: echo "opendata.demo.contentdesk.io" > ./docs/CNAME
       - run: mkdocs gh-deploy --force
