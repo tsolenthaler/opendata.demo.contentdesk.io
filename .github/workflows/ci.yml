@@ -41,6 +41,14 @@ jobs:
       - run: pip install mkdocs-git-committers-plugin-2
       - name: Install python-dotenv
         run: pip install python-dotenv
+      - name: Install requests
+        run: pip install requests
+      - name: Install oauthlib
+        run: pip install oauthlib
+      - name: Install requests_oauthlib
+        run: pip install requests_oauthlib
+      - name: Install validators
+        run: pip install validators
       - name: Install akeneo
         run: pip install -i https://test.pypi.org/simple/ akeneo
       - name: Install contentdeskopendata
