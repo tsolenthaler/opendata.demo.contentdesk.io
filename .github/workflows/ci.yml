@@ -53,7 +53,7 @@ jobs:
         run: pip install -i https://test.pypi.org/simple/ akeneo
       - name: Install contentdeskopendata
         run: pip install -i https://test.pypi.org/simple/ contentdeskopendata
-      #- run: contentdeskopendata.ContentdeskOpenData(${{ env.host }}, ${{ env.clientid }}, ${{ env.secret }}, ${{ env.user }}, ${{ env.passwd }}, ${{ env.cdnurl }}, ${{ env.path }})
+      #- run: contentdeskopendata.ContentdeskOpenData(${{ secrets.host }}, ${{ secrets.clientid }}, ${{ secrets.secret }}, ${{ secrets.user }}, ${{ secrets.passwd }}, ${{ secrets.cdnurl }}, "../docs/")
       #- run: pip install mkdocs-git-authors-plugin
       - name: Run Python script
         working-directory: ./src/command
