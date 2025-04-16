@@ -39,10 +39,13 @@ jobs:
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-git-committers-plugin-2
+      - name: Install python-dotenv
+        run: pip install python-dotenv
       - run: pip install -i https://test.pypi.org/simple/ contentdeskopendata
       #- run: contentdeskopendata.ContentdeskOpenData(${{ env.host }}, ${{ env.clientid }}, ${{ env.secret }}, ${{ env.user }}, ${{ env.passwd }}, ${{ env.cdnurl }}, ${{ env.path }})
       #- run: pip install mkdocs-git-authors-plugin
       - name: Run Python script
+        working-directory: ./src/command
         run: python start.py
       - name: Create CNAME file
         run: echo "opendata.demo.contentdesk.io" > ./docs/CNAME
