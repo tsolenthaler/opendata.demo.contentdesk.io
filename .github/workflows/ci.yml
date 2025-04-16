@@ -8,14 +8,13 @@ permissions:
   contents: write
 
 env:
-  TARGET: |
-    host: ${{ secrets.AKENEO_HOST }}
-    clientid: ${{ secrets.AKENEO_CLIENT_ID }}
-    secret: ${{ secrets.AKENEO_CLIENT_SECRET }}
-    user: ${{ secrets.AKENEO_USERNAME }}
-    passwd: ${{ secrets.AKENEO_PASSWORD }}
-  CONFIG: |
-    cdnurl: ${{ secrets.CDN_URL }}
+  host: ${{ secrets.AKENEO_HOST }}
+  clientid: ${{ secrets.AKENEO_CLIENT_ID }}
+  secret: ${{ secrets.AKENEO_CLIENT_SECRET }}
+  user: ${{ secrets.AKENEO_USERNAME }}
+  passwd: ${{ secrets.AKENEO_PASSWORD }}
+  cdnurl: ${{ secrets.CDN_URL }}
+  path: "../docs/"
 
 jobs:
   deploy:
@@ -41,7 +40,7 @@ jobs:
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-git-committers-plugin-2
       - run: pip install -i https://test.pypi.org/simple/ contentdeskopendata
-      - run: contentdeskopendata.ContentdeskOpenData([${{ env.TARGET }}], [${{ env.CONFIG }}])
+      - run: contentdeskopendata.ContentdeskOpenData(${{ env.host }}, ${{ env.clientid }}, ${{ env.secret }}, ${{ env.user }}, ${{ env.passwd }}, ${{ env.cdnurl }}, ${{ env.path }})
       #- run: pip install mkdocs-git-authors-plugin
       - name: Create CNAME file
         run: echo "opendata.demo.contentdesk.io" > ./docs/CNAME

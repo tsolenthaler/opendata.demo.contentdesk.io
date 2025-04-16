@@ -5,3 +5,4 @@ env/*
 __pycache__
 src/env/*
 docs/debug/*
+docs/api/*
