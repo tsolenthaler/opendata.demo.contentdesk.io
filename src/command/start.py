@@ -2,6 +2,7 @@ from os import getenv
 from dotenv import load_dotenv, find_dotenv
 import sys
 import contentdeskopendata
+import os
 
 load_dotenv(find_dotenv())
 
@@ -22,9 +23,10 @@ def main():
     user = AKENEO_USERNAME
     passwd = AKENEO_PASSWORD
     cdnurl = CDN_URL
-    path = "../../docs/"
+    path = "/docs/"
+    projectPath = os.path.dirname(os.path.abspath(__file__))
     
-    contentdeskopendata.ContentdeskOpenData(host, clientid, secret, user, passwd, cdnurl, path)
+    contentdeskopendata.ContentdeskOpenData(host, clientid, secret, user, passwd, cdnurl, projectPath)
 
 if __name__ == '__main__':
     main()

@@ -6,3 +6,5 @@ src/env/*
 docs/debug/*
 docs/api/*
 src/command/createmd.py
+src/command/api/*
+src/command/debug/*
