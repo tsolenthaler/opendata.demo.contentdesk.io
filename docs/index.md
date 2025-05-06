@@ -1,15 +1,14 @@
 ---
 hide:
   - navigation
+  - toc
 ---
 
-# OpenData Demo Tourismus
+# Willkommen auf dem OpenData Portal der {{ mainPage.app_organization }}
 
 {{ macros_info() }}
 
 {{ mainPage.productCounter }} freie Datensätze
-
-## Willkommen auf dem OpenData Portal der {{ mainPage.app_organization }}
 
 Hier finden Sie öffentlich zugängliche Datensätze aus der {{ app_region }} wie Unterkünfte, Erlebnisse und Gastronomie. Die hier veröffentlichten Daten stehen kostenlos zur Verfügung und können mit einer [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de) Lizenz frei wiederverwendet werden.
 
