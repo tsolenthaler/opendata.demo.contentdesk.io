@@ -2,11 +2,6 @@
 hide:
   - navigation
   - toc
-
-mainPage:
-	productCounter: 100
-    app_organization: "Demo Tourismus"
-    app_region: "Demo Region"
 ---
 
 # Willkommen auf dem OpenData Portal der {{ mainPage.app_organization }}
