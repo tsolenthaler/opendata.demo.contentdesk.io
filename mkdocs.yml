@@ -32,6 +32,7 @@ plugin:
   - search
   - tags
   - awesome-pages
+  - macros
 
 markdown_extensions:
   - attr_list
@@ -57,3 +58,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+extra:
+  mainPage:
+    productCounter: 100
+    app_organization: "Demo Tourismus"
+    app_region: "Demo Region"
+

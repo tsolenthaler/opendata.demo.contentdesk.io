@@ -5,11 +5,13 @@ hide:
 
 # OpenData Demo Tourismus
 
-13 freie Datensätze
+{{ macros_info() }}
 
-## Willkommen auf dem OpenData Portal der Demo Tourismus
+{{ mainPage.productCounter }} freie Datensätze
 
-Hier finden Sie öffentlich zugängliche Datensätze aus der Region Ziggy wie Unterkünfte, Erlebnisse und Gastronomie. Die hier veröffentlichten Daten stehen kostenlos zur Verfügung und können mit einer [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de) Lizenz frei wiederverwendet werden.
+## Willkommen auf dem OpenData Portal der {{ mainPage.app_organization }}
+
+Hier finden Sie öffentlich zugängliche Datensätze aus der {{ app_region }} wie Unterkünfte, Erlebnisse und Gastronomie. Die hier veröffentlichten Daten stehen kostenlos zur Verfügung und können mit einer [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de) Lizenz frei wiederverwendet werden.
 
 **Die Daten dürfen**
 
@@ -19,7 +21,7 @@ Hier finden Sie öffentlich zugängliche Datensätze aus der Region Ziggy wie Un
 
 **Haftungsausschluss**
 
-- Die Ziggy Tourismus schliesst jede Haftung für direkte und indirekte Schäden durch die Datennutzung aus. Sie übernimmt keine Garantie für die Aktualität, Richtigkeit, Vollständigkeit und Genauigkeit der veröffentlichten Daten.
+- Die {{ app_organization }} schliesst jede Haftung für direkte und indirekte Schäden durch die Datennutzung aus. Sie übernimmt keine Garantie für die Aktualität, Richtigkeit, Vollständigkeit und Genauigkeit der veröffentlichten Daten.
 
 | Typen       | Untertypen | Format                         |
 | ----------- | ---------- | ------------------------------ |
