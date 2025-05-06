@@ -8,13 +8,12 @@ permissions:
   contents: write
 
 env:
-  host: ${{ secrets.AKENEO_HOST }}
-  clientid: ${{ secrets.AKENEO_CLIENT_ID }}
-  secret: ${{ secrets.AKENEO_CLIENT_SECRET }}
-  user: ${{ secrets.AKENEO_USERNAME }}
-  passwd: ${{ secrets.AKENEO_PASSWORD }}
-  cdnurl: ${{ secrets.CDN_URL }}
-  path: "../docs/"
+  AKENEO_HOST: ${{ secrets.AKENEO_HOST }}
+  AKENEO_CLIENT_ID: ${{ secrets.AKENEO_CLIENT_ID }}
+  AKENEO_CLIENT_SECRET: ${{ secrets.AKENEO_CLIENT_SECRET }}
+  AKENEO_USERNAME: ${{ secrets.AKENEO_USERNAME }}
+  AKENEO_PASSWORD: ${{ secrets.AKENEO_PASSWORD }}
+  CDN_URL: ${{ secrets.CDN_URL }}
 
 jobs:
   deploy:
