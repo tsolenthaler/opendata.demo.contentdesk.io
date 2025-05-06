@@ -2,15 +2,20 @@
 hide:
   - navigation
   - toc
+
+mainPage:
+	productCounter: 100
+    app_organization: "Demo Tourismus"
+    app_region: "Demo Region"
 ---
 
 # Willkommen auf dem OpenData Portal der {{ mainPage.app_organization }}
 
 {{ macros_info() }}
 
-{{ mainPage.productCounter }} freie Datensätze
+{{ page.meta.mainPage.productCounter }} freie Datensätze
 
-Hier finden Sie öffentlich zugängliche Datensätze aus der {{ app_region }} wie Unterkünfte, Erlebnisse und Gastronomie. Die hier veröffentlichten Daten stehen kostenlos zur Verfügung und können mit einer [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de) Lizenz frei wiederverwendet werden.
+Hier finden Sie öffentlich zugängliche Datensätze aus der {{ page.meta.mainPage.app_region }} wie Unterkünfte, Erlebnisse und Gastronomie. Die hier veröffentlichten Daten stehen kostenlos zur Verfügung und können mit einer [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.de) Lizenz frei wiederverwendet werden.
 
 **Die Daten dürfen**
 
@@ -20,7 +25,7 @@ Hier finden Sie öffentlich zugängliche Datensätze aus der {{ app_region }} wi
 
 **Haftungsausschluss**
 
-- Die {{ app_organization }} schliesst jede Haftung für direkte und indirekte Schäden durch die Datennutzung aus. Sie übernimmt keine Garantie für die Aktualität, Richtigkeit, Vollständigkeit und Genauigkeit der veröffentlichten Daten.
+- Die {{ page.meta.mainPage.app_organization }} schliesst jede Haftung für direkte und indirekte Schäden durch die Datennutzung aus. Sie übernimmt keine Garantie für die Aktualität, Richtigkeit, Vollständigkeit und Genauigkeit der veröffentlichten Daten.
 
 | Typen       | Untertypen | Format                         |
 | ----------- | ---------- | ------------------------------ |
