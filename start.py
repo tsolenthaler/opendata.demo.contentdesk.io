@@ -14,7 +14,6 @@ AKENEO_USERNAME = getenv('AKENEO_USERNAME')
 AKENEO_PASSWORD = getenv('AKENEO_PASSWORD')
 
 CDN_URL = getenv('CDN_URL')
-PATH = getenv('PATH')
 
 def main():
     host = AKENEO_HOST
@@ -23,10 +22,10 @@ def main():
     user = AKENEO_USERNAME
     passwd = AKENEO_PASSWORD
     cdnurl = CDN_URL
-    path = "/docs/"
+    path = "/docs"
     projectPath = os.path.dirname(os.path.abspath(__file__))
     
-    contentdeskopendata.ContentdeskOpenData(host, clientid, secret, user, passwd, cdnurl, projectPath)
+    contentdeskopendata.ContentdeskOpenData(host, clientid, secret, user, passwd, cdnurl, projectPath+path)
 
 if __name__ == '__main__':
     main()
