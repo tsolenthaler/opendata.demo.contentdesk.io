@@ -29,7 +29,7 @@ Hier finden Sie öffentlich zugängliche Datensätze aus der {{ page.meta.mainPa
 | [Accommodation](/api/Accommodation.json)      		|  			| json-ld gejson csv rss mapview |
 | [CivicStructure](/api/CivicStructure.json) 			|            | json-ld gejson csv rss mapview |
 | [AdministrativeArea](/api/AdministrativeArea.json)    |       	| json-ld gejson csv rss mapview |
-| [TransportationSystem](/api/TransportationSystem.json)    |       	| json-ld gejson csv rss mapview |
+| [TransportationSystem](/api/TransportationSystem.json)	|       	| json-ld gejson csv rss mapview |
 | [LocalBusiness](/api/LocalBusiness.json)    			|       	| json-ld gejson csv rss mapview |
 | [FoodEstablishment](/api/FoodEstablishment.json)    	|       	| json-ld gejson csv rss mapview |
 | [LodgingBusiness](/api/LodgingBusiness.json)    		|       	| json-ld gejson csv rss mapview |
