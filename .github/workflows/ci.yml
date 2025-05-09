@@ -17,6 +17,12 @@ env:
   AKENEO_USERNAME: ${{ secrets.AKENEO_USERNAME }}
   AKENEO_PASSWORD: ${{ secrets.AKENEO_PASSWORD }}
   CDN_URL: ${{ secrets.CDN_URL }}
+  APP_ORGANIZATION: ${{ secrets.APP_ORGANIZATION }}
+  APP_NAME: ${{ secrets.APP_NAME }}
+  APP_WEBSITE: ${{ secrets.APP_WEBSITE }}
+  APP_WEBSITE_API: ${{ secrets.APP_WEBSITE_API }}
+  APP_ORGANIZATION_WEBSITE: ${{ secrets.APP_ORGANIZATION_WEBSITE }}
+  APP_REGION: ${{ secrets.APP_REGION }}
 
 jobs:
   deploy:
@@ -39,6 +45,12 @@ jobs:
           echo "${{ secrets.AKENEO_USERNAME }}" > .env
           echo "${{ secrets.AKENEO_PASSWORD }}" > .env
           echo "${{ secrets.CDN_URL }}" > .env
+          echo "${{ secrets.APP_ORGANIZATION }}" > .env
+          echo "${{ secrets.APP_NAME }}" > .env
+          echo "${{ secrets.APP_WEBSITE }}" > .env
+          echo "${{ secrets.APP_WEBSITE_API }}" > .env
+          echo "${{ secrets.APP_ORGANIZATION_WEBSITE }}" > .env
+          echo "${{ secrets.APP_REGION }}" > .env
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
