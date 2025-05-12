@@ -16,43 +16,43 @@
 }
 @font-face {
   font-family: "Takeoff-Regular";
-  src: url("../../files/_OpenFrontend/_config/design_SGBT/fonts/Takeoff-A1090Regular.woff2")
+  src: url("https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/fonts/Takeoff-A1090Regular.woff2")
     format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Takeoff-Medium";
-  src: url("../../files/_OpenFrontend/_config/design_SGBT/fonts/Takeoff-A1120Medium.woff2")
+  src: url("https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/fonts/Takeoff-A1120Medium.woff2")
     format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Takeoff-Bold";
-  src: url("../../files/_OpenFrontend/_config/design_SGBT/fonts/Takeoff-A1150Bold.woff2")
+  src: url("https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/fonts/Takeoff-A1150Bold.woff2")
     format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Indivisible-Regular";
-  src: url("../../files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebRegular.woff2")
+  src: url("https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebRegular.woff2")
     format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Indivisible-Regular-Italic";
-  src: url("../../files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebRegularItalic.woff2")
+  src: url("https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebRegularItalic.woff2")
     format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Indivisible-Bold";
-  src: url("../../files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebBold.woff2")
+  src: url("https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebBold.woff2")
     format("woff2");
   font-display: swap;
 }
 @font-face {
   font-family: "Indivisible-Bold-Italic";
-  src: url("../../files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebBoldItalic.woff2")
+  src: url("https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/fonts/IndivisibleWebBoldItalic.woff2")
     format("woff2");
   font-display: swap;
 }
@@ -356,7 +356,7 @@
 [data-bs-theme="dark"] .btn-light {
   border: 1px solid #ffffff;
   color: #ffffff;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
 }
 [data-bs-theme="dark"] .btn-light:hover {
   color: #0f0f0f;
@@ -365,7 +365,7 @@
 [data-bs-theme="dark"] .btn-dark {
   background-color: #ffffff;
   color: #0f0f0f;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
 }
 [data-bs-theme="dark"] .btn-dark:hover {
   background-color: #ffffff;
@@ -399,14 +399,14 @@
   border-color: #ffffff !important;
 }
 [data-bs-theme="dark"] .form-check-input:checked[type="checkbox"] {
-  --bs-form-check-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/checkbox-icon-white.svg);
+  --bs-form-check-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/checkbox-icon-white.svg);
 }
 [data-bs-theme="dark"] .form-check-input:checked[type="radio"] {
-  --bs-form-check-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/radio-icon-white.svg);
+  --bs-form-check-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/radio-icon-white.svg);
 }
 [data-bs-theme="dark"] .form-datepicker,
 [data-bs-theme="dark"] .form-timepicker {
-  --bs-form-datepicker-bg-img: url(../../files/_OpenFrontend/_config/design_SGBT/img/datepicker-icon-white.svg);
+  --bs-form-datepicker-bg-img: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/datepicker-icon-white.svg);
 }
 [data-bs-theme="dark"] .content-of-akeneo-object-list,
 [data-bs-theme="dark"] .content-of-backend-object-list,
@@ -422,8 +422,8 @@
   --sbgt-content-of-akeneo-object-list-btn-location-loader-hover-color: #ffffff;
   --sbgt-content-of-akeneo-object-list-btn-location-loader-bg-disabled: #7e7b7b;
   --sbgt-content-of-akeneo-object-list-btn-submit: #0f0f0f;
-  --sbgt-content-of-akeneo-object-list-btn-submit-bg-img: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
-  --sbgt-content-of-akeneo-object-list-btn-btn-outline-primary-bg-img: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  --sbgt-content-of-akeneo-object-list-btn-submit-bg-img: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sbgt-content-of-akeneo-object-list-btn-btn-outline-primary-bg-img: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
   --sbgt-content-of-akeneo-object-list-btn-btn-outline-primary-hover-color: #0f0f0f;
   --sbgt-content-of-akeneo-object-list-btn-submit-hover-color: #ffffff;
   --sgbt-object-list-filters-mobile-close-btn: #ffffff;
@@ -449,7 +449,7 @@
   --card-btn-border-width: 0px;
   --card-btn-border-color: #ffffff;
   --card-btn-border-color-hover: #0f0f0f;
-  --sgbt-card-btn-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-card-btn-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
 }
 [data-bs-theme="dark"] .card .icon-circle {
   --bs-icon-circle-color: #fff;
@@ -486,7 +486,7 @@
   --carousel-navigation-btn-of-icon-color: #ffffff;
   --carousel-navigation-btn-of-icon-color-hover: #0f0f0f;
   --carousel-navigation-btn-of-icon-color-active: #0f0f0f;
-  --sgbt-carousel-btn-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  --sgbt-carousel-btn-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
 }
 [data-bs-theme="dark"] .pagination-dropdown {
   --pagination-navigation-btn-bg: transparent;
@@ -504,7 +504,7 @@
   --pagination-select-bg: #7e7b7b;
   --pagination-select-border-color: #7e7b7b;
   --pagination-select-border-color-focus: #ffffff;
-  --sgbt-pagination-btn-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  --sgbt-pagination-btn-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
 }
 [data-bs-theme="dark"] .calendar {
   --fc-today-bg-color: #2a2a2a;
@@ -662,7 +662,7 @@
   background-color: #2a2a2a;
 }
 [data-bs-theme="dark"] .glightbox-container {
-  --sgbt-lightbox-gprevgnext-backgorund-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  --sgbt-lightbox-gprevgnext-backgorund-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
   --sgbt-lightbox-gprevgnext-border-width-color: #ffffff;
   --sgbt-lightbox-gprev-gnext-gclose-of-icon-color: #ffffff;
   --sgbt-lightbox-gprevgnext-of-icon-hover-color: #0f0f0f;
@@ -672,11 +672,11 @@
   --sgbt-object-reader-button-color: #ffffff;
   --sgbt-object-reader-button-hover-color: #ffffff;
   --sgbt-object-reader-button-bg: var(--bs-primary);
-  --sgbt-object-reader-button-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-object-reader-button-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   --sgbt-object-medien-button-color: #0f0f0f;
   --sgbt-object-medien-button-hover-color: #ffffff;
   --sgbt-object-medien-button-bg: #ffffff;
-  --sgbt-object-medien-button-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-object-medien-button-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
 }
 :root {
   --bs-body-font-family: Indivisible-Regular, Indivisible-Regular Fallback,
@@ -1729,7 +1729,7 @@ h6 {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     background-size 0.15s ease-in-out !important;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   background-size: 0 100%;
   background-repeat: no-repeat;
 }
@@ -1814,7 +1814,7 @@ h6 {
 .btn-dark {
   background-color: #0f0f0f;
   color: #ffffff;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-darkgray2.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-darkgray2.svg);
 }
 .btn-dark:hover {
   color: #ffffff;
@@ -1925,10 +1925,10 @@ textarea.form-control {
   border-color: #0f0f0f;
 }
 .form-check-input:checked[type="checkbox"] {
-  --bs-form-check-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/checkbox-icon-black.svg);
+  --bs-form-check-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/checkbox-icon-black.svg);
 }
 .form-check-input:checked[type="radio"] {
-  --bs-form-check-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/radio-icon-black.svg);
+  --bs-form-check-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/radio-icon-black.svg);
 }
 .widget-pagebreak .btn {
   margin-bottom: 10px;
@@ -2029,7 +2029,7 @@ textarea.form-control {
   --card-btn-border-color: #0f0f0f;
   --card-btn-border-color-hover: #0f0f0f;
   --bs-card-media-zoom-transform: scale(1.1);
-  --sgbt-card-btn-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  --sgbt-card-btn-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
   border-top-width: 0;
   border-left-width: 0;
   border-right-width: 0;
@@ -2319,7 +2319,7 @@ textarea.form-control {
   --carousel-navigation-btn-of-icon-color-active: #ffffff;
   --carousel-navigation-btn-padding-y: 0.563rem;
   --carousel-navigation-btn-padding-x: 0.563rem;
-  --sgbt-carousel-btn-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-carousel-btn-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
 }
 .carousel .carousel-navigation-wrapper--top-right {
   margin-right: 2.5rem;
@@ -2547,7 +2547,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
   --pagination-select-border-color: #f3f2f2;
   --pagination-select-border-color-focus: #0f0f0f;
   --pagination-select-border-radius: 100px;
-  --sgbt-pagination-btn-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-pagination-btn-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
 }
 .pagination-dropdown .btn {
   background-color: var(--pagination-navigation-btn-bg);
@@ -2767,7 +2767,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
   --slider-navigation-btn-of-icon-color-active: #0f0f0f;
   --slider-navigation-btn-padding-y: 0.875rem;
   --slider-navigation-btn-padding-x: 0.875rem;
-  --sgbt-slider-btn-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  --sgbt-slider-btn-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
   --bs-slider-theme-color: #0f0f0f;
   --bs-slider-pagination-color: var(--bs-slider-theme-color);
   --bs-slider-pagination-left: 12px;
@@ -2991,7 +2991,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
 .wrapper-bg-custom .btn-light {
   border-color: #ffffff;
   color: #ffffff;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
 }
 .wrapper-bg-custom .btn-light:hover {
   background-color: transparent;
@@ -3039,7 +3039,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
 .wrapper-bg-dark .btn-light {
   border-color: #ffffff;
   color: #ffffff;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
 }
 .wrapper-bg-dark .btn-light:hover {
   background-color: transparent;
@@ -3087,7 +3087,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
 .wrapper-bg-light .btn-light {
   border-color: #ffffff;
   color: #ffffff;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
 }
 .wrapper-bg-light .btn-light:hover {
   background-color: transparent;
@@ -3140,8 +3140,8 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
   --sbgt-content-of-akeneo-object-list-btn-location-loader-hover-color: #ffffff;
   --sbgt-content-of-akeneo-object-list-btn-location-loader-bg-disabled: #eceaea;
   --sbgt-content-of-akeneo-object-list-btn-submit: #ffffff;
-  --sbgt-content-of-akeneo-object-list-btn-submit-bg-img: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-darkgray2.svg);
-  --sbgt-content-of-akeneo-object-list-btn-btn-outline-primary-bg-img: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sbgt-content-of-akeneo-object-list-btn-submit-bg-img: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-darkgray2.svg);
+  --sbgt-content-of-akeneo-object-list-btn-btn-outline-primary-bg-img: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   --sbgt-content-of-akeneo-object-list-btn-btn-outline-primary-hover-color: #ffffff;
   --sbgt-content-of-akeneo-object-list-btn-submit-hover-color: #ffffff;
   --sgbt-object-list-filters-mobile-close-btn: #0f0f0f;
@@ -3635,15 +3635,15 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
   --sgbt-object-reader-button-color: #ffffff;
   --sgbt-object-reader-button-hover-color: #ffffff;
   --sgbt-object-reader-button-bg: var(--bs-primary);
-  --sgbt-object-reader-button-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-object-reader-button-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   --sgbt-object-medien-button-color: #ffffff;
   --sgbt-object-medien-button-hover-color: #ffffff;
   --sgbt-object-medien-button-bg: #0f0f0f;
-  --sgbt-object-medien-button-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-darkgray2.svg);
+  --sgbt-object-medien-button-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-darkgray2.svg);
   --sgbt-object-reader-map-button-color: #ffffff;
   --sgbt-object-reader-map-button-hover-color: #ffffff;
   --sgbt-object-reader-map-button-bg: #0f0f0f;
-  --sgbt-object-reader-map-button-bg-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-object-reader-map-button-bg-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
 }
 .content-of-object-reader.sticky-top-header {
   top: calc(var(--bs-header-sticky-height) + 15px) !important;
@@ -3733,7 +3733,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
 }
 .content-of-gallery .compact-view:hover a::after {
   opacity: 1;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/zoom-in.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/zoom-in.svg);
   transition: opacity 0.5s ease-in-out;
 }
 .glightbox-container {
@@ -3753,7 +3753,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
   --lightbox-btn-close-offset-top: 19px;
   --lightbox-btn-close-background: transparent;
   --lightbox-btn-close-hover-background: transparent;
-  --sgbt-lightbox-gprevgnext-backgorund-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  --sgbt-lightbox-gprevgnext-backgorund-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   --sgbt-lightbox-gprevgnext-border-radius: 50px;
   --sgbt-lightbox-gprevgnext-border-width: 1px;
   --sgbt-lightbox-gprevgnext-of-icon-width: 1.25rem;
@@ -4024,7 +4024,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
   font-weight: 700;
   left: 7px;
   top: 0;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/world-icon.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/world-icon.svg);
   background-repeat: no-repeat;
   background-size: 20px 20px;
 }
@@ -4043,7 +4043,7 @@ html[data-bs-theme="dark"] .sgbt-labels-logos .logos-item img {
   margin-left: 1px;
   background-size: 16px 14px;
   background-position: right 1.5rem top 0.125rem;
-  --bs-form-select-bg-img: url(../../files/_OpenFrontend/_config/design_SGBT/img/chevron-down.svg);
+  --bs-form-select-bg-img: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/chevron-down.svg);
 }
 .sgbt-change-language:has(select) select.form-select:focus {
   border-color: transparent !important;
@@ -4107,7 +4107,7 @@ footer .content-of-hyperlink {
 footer .content-of-hyperlink .btn-light {
   background-color: transparent;
   border: 1px solid #ffffff;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-white.svg);
 }
 footer .content-of-hyperlink .btn-light span {
   font-size: 16px !important;
@@ -4462,7 +4462,7 @@ body:has(#bynder-widget-lightbox)
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     background-size 0.15s ease-in-out !important;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   background-size: 0 100%;
   background-repeat: no-repeat;
 }
