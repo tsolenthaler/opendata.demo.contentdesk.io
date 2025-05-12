@@ -1,5 +1,5 @@
 # Project information
-site_name: opendata.demo.contentdesk.io
+site_name: OpenData Portal - Demo Tourismus
 site_url: https://opendata.demo.contentdesk.io
 theme:
   name: material
@@ -12,7 +12,7 @@ theme:
     - content.action.edit
 
   #custom_dir: overrides
-  
+
 plugins: []
 
 extra_css:
