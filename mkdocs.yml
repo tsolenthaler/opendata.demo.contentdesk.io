@@ -6,34 +6,17 @@ theme:
   logo: assets/logo-sgbt-minimiert.svg
   favicon: assets/favicon-180-180.png
   features:
-    #- navigation.instant
-    #- navigation.instant.progress
-    #- navigation.tracking
-    #- navigation.tabs
-    #- navigation.tabs.sticky
-    #- navigation.sections
-    #- navigation.expand
-    #- navigation.indexes
-    #- toc.follow
-    #- toc.integrate
-    #- navigation.top
     - content.tabs.link
     - content.code.copy
     - content.action.view
     - content.action.edit
-    #- search.suggest
-    #- search.highlight
-    #- search.share
+
   #custom_dir: overrides   
 
 extra_css:
   - stylesheets/app.css
   - stylesheets/custom.css
   - stylesheets/contentdesk.css
-
-plugin:
-  - tags
-  - awesome-pages
 
 markdown_extensions:
   - attr_list
@@ -59,11 +42,5 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
-extra:
-  mainPage:
-    productCounter: 100
-    app_organization: "Demo Tourismus"
-    app_region: "Demo Region"
 
 copyright: Portal powered by <a href="https://tso.ch/">TSO AG</a>
