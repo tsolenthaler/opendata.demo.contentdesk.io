@@ -4,7 +4,7 @@ site_url: https://opendata.demo.contentdesk.io
 theme:
   name: material
   logo: assets/logo-sgbt.svg
-  #favicon: assets/favicon-180-180.png
+  favicon: assets/favicon-180-180.png
   features:
     #- navigation.instant
     #- navigation.instant.progress
