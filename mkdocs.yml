@@ -29,10 +29,9 @@ extra_css:
   - stylesheets/contentdesk.css
 
 plugin:
-  - search
+  #- search
   - tags
   - awesome-pages
-  - macros
 
 markdown_extensions:
   - attr_list
