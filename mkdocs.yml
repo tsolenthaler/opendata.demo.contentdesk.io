@@ -9,7 +9,7 @@ theme:
     #- navigation.instant
     #- navigation.instant.progress
     #- navigation.tracking
-    - navigation.tabs
+    #- navigation.tabs
     #- navigation.tabs.sticky
     #- navigation.sections
     #- navigation.expand
@@ -21,9 +21,9 @@ theme:
     - content.code.copy
     - content.action.view
     - content.action.edit
-    - search.suggest
-    - search.highlight
-    - search.share
+    #- search.suggest
+    #- search.highlight
+    #- search.share
 
 extra_css:
   - stylesheets/app.css
