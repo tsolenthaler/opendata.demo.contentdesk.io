@@ -29,6 +29,7 @@ theme:
 extra_css:
   - stylesheets/app.css
   - stylesheets/custom.css
+  - stylesheets/contentdesk.css
 
 plugin:
   - tags
@@ -65,4 +66,4 @@ extra:
     app_organization: "Demo Tourismus"
     app_region: "Demo Region"
 
-copyright: Portal powered by TSO AG
+copyright: Portal powered by <a href="https://tso.ch/">TSO AG</a>
