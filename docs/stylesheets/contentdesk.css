@@ -1,9 +1,12 @@
 .md-header {
   background-color: white;
   color: black;
+  border-bottom: 1px solid #0f0f0f;
+}
+
+.md-header__inner {
   max-height: 70px;
   height: 70px;
-  border-bottom: 1px solid #0f0f0f;
 }
 
 .md-header--shadow {
