@@ -26,7 +26,8 @@ theme:
     - search.share
 
 extra_css:
-  - stylesheets/contentdesk.css
+  - stylesheets/app.css
+  - stylesheets/custom.css
 
 plugin:
   #- search
