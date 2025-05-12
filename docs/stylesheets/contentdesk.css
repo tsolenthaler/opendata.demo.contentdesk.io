@@ -11,12 +11,6 @@
   transition: none;
 }
 
-.md-ellipsis{
-  font-family: "Takeoff-Regular", "Takeoff-Regular Fallback", sans-serif;
-  line-height: 31.08px;
-  font-size: 24px;
-}
-
 .md-tabs {
   background-color: rgb(223, 225, 240);
   color: #5e63b6 !important;
