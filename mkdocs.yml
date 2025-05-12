@@ -11,7 +11,9 @@ theme:
     - content.action.view
     - content.action.edit
 
-  #custom_dir: overrides   
+  #custom_dir: overrides
+  
+plugins: []
 
 extra_css:
   - stylesheets/app.css
