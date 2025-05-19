@@ -55,6 +55,8 @@
 }
 
 .md-typeset .md-button:hover {
+  background-color: #46c882;
+  --bs-btn-bg: #46c882;
   background-size:100% 100%
 }
 
