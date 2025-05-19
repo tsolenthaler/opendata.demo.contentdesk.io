@@ -43,7 +43,7 @@
   text-decoration: none;
 }
 
-.md-button--primary {
+.md-button {
   background-color: #46c882;
   --bs-btn-bg: #46c882;
   color: #ffffff;
