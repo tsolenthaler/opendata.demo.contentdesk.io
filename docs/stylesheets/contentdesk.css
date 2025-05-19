@@ -43,7 +43,7 @@
   text-decoration: none;
 }
 
-.md-button {
+.md-typeset .md-button {
   background-color: #46c882;
   --bs-btn-bg: #46c882;
   color: #ffffff;
@@ -52,4 +52,14 @@
   background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   background-size: 0 100%;
   background-repeat: no-repeat;
+}
+
+.md-typeset a .md-button {
+  display:inline-flex;
+  align-items:center;
+  flex-wrap:nowrap;
+  line-height:normal;
+  border-radius:50px;
+  padding:16px 40px 16px 40px;
+  border:none
 }
