@@ -44,11 +44,12 @@
 }
 
 .md-typeset .md-button {
+  color: black;
   background-color: #46c882;
   --bs-btn-bg: #46c882;
 }
 
-.md-typeset a.md-button:hover {
+.md-typeset .md-button:hover {
   --bs-btn-active-bg: #0F0F0F;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background-size 0.15s ease-in-out !important;
   background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
