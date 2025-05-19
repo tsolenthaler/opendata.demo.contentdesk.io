@@ -63,3 +63,13 @@
   padding:16px 40px 16px 40px;
   border:none
 }
+
+.md-button:hover{
+  background-size:100% 100%
+}
+
+.md-button:focus-visible{
+  outline:none;
+  border:none;
+  box-shadow:none
+}
