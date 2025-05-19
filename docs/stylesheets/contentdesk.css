@@ -74,7 +74,7 @@
   border:none
 }
 
-.md-button a.md-button:focus{
+.md-button .md-button:focus-visible{
   outline:none;
   border:none;
   box-shadow:none
