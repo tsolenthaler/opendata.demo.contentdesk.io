@@ -23,7 +23,7 @@
   background-color: #0f0f0f;
 }
 
-a {
+.md-typeset a {
   color: rgb(15, 15, 15);
   text-decoration: underline;
 }
