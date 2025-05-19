@@ -15,7 +15,6 @@ theme:
 plugins: []
 
 extra_css:
-  #- stylesheets/app.css
   - stylesheets/custom.css
   - stylesheets/contentdesk.css
 
