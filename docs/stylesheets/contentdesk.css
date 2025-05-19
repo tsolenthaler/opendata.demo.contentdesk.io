@@ -43,7 +43,7 @@
   text-decoration: none;
 }
 
-.md-typeset .md-button {
+.md-typeset a.md-button {
   background-color: #46c882;
   --bs-btn-bg: #46c882;
   --bs-btn-active-bg: #0F0F0F;
@@ -53,7 +53,7 @@
   background-repeat: no-repeat;
 }
 
-.md-typeset a .md-button {
+.md-typeset a.md-button {
   display:inline-flex;
   align-items:center;
   flex-wrap:nowrap;
@@ -63,11 +63,11 @@
   border:none
 }
 
-.md-button a:hover{
+.md-button a.md-button:hover{
   background-size:100% 100%
 }
 
-.md-button a:focus-visible{
+.md-button a.md-button:focus-visible{
   outline:none;
   border:none;
   box-shadow:none
