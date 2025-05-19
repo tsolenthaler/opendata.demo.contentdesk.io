@@ -38,7 +38,7 @@
   text-decoration: underline;
 }
 
-.md-typeset a:hover {
+.md-typeset a:visited {
   color: rgb(15, 15, 15);
   text-decoration: none;
 }
