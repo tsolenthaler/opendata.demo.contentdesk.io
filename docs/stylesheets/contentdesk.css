@@ -49,7 +49,7 @@
   color: #ffffff;
   --bs-btn-active-bg: #0F0F0F;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, background-size 0.15s ease-in-out !important;
-  background-image: url(../../files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
+  background-image: url(https://st.gallen-bodensee.ch/files/_OpenFrontend/_config/design_SGBT/img/btn-bg-black.svg);
   background-size: 0 100%;
   background-repeat: no-repeat;
 }
