@@ -14,10 +14,6 @@ theme:
 
 plugins: []
 
-extra_css:
-  - stylesheets/custom.css
-  - stylesheets/contentdesk.css
-
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
