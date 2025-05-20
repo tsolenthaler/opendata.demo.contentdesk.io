@@ -60,6 +60,12 @@
   background-size:100% 100%
 }
 
+.md-typeset .md-button:active {
+  background-color: #46c882;
+  --bs-btn-bg: #46c882;
+    background-size: 0 100%;
+}
+
 .md-typeset a.md-button {
   color: black;
   background-color: #46c882;
