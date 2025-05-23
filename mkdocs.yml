@@ -3,8 +3,8 @@ site_name: OpenData Portal - Demo Tourismus
 site_url: https://opendata.demo.contentdesk.io
 theme:
   name: material
-  #logo: assets/logo-contentdesk-blau.svg
-  #favicon: assets/favicon-180-180.png
+  logo: assets/logo.svg
+  favicon: assets/favicon-180-180.png
   features:
     - content.tabs.link
     - content.code.copy
@@ -39,4 +39,4 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-copyright: Portal powered by <a href="https://tso.ch/">TSO AG</a>
+copyright: OpenData Portal made with <a href="https://contentdesk.io">CONTENTDESK.IO</a>
